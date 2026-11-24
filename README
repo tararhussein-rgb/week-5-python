@@ -1,0 +1,11 @@
+# PLP Python Week 5 Assignment: Countdown, Guessing Game & Loop Patterns
+
+This repository contains the completed Python assignments for Week 5, exploring `while` and `for` loops, conditional branching, and user input handling.
+
+## Files Included
+* **countdown.py**: A script that counts down from a user-defined starting number to 1 using a `while` loop, finishing with "Blast off!".
+* **guess_game.py**: An interactive number-guessing game that gives feedback ("Too high!" / "Too low!") and counts total attempts until success.
+* **spell_it_out.py**: A string-processing program that iterates through a word using `for` loops to display individual letters, numbered formats, and the total character count.
+
+## Reflection: While Loops vs. For Loops
+You should reach for a `while` loop when you do not know in advance how many times the loop needs to run, as it continues based on an ongoing condition (such as waiting for a user to guess correctly). In contrast, a `for` loop is ideal when you want to iterate over a known sequence, collection, or a fixed number of steps (such as walking through each character in a word).
